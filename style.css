@@ -61,8 +61,8 @@ p {
     color: var(--color-white);
     text-decoration: none;
     background-color: initial;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 .Button:not(:disabled) {
     cursor: pointer
@@ -271,7 +271,7 @@ body {
 .Username {
     cursor: default;
     color: var(--text-color);
-    text-shadow: 0px 0px 15px rgba(0,0,0,1);
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 .App {
     display: -webkit-flex;
