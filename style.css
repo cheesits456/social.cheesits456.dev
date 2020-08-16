@@ -1,6 +1,5 @@
 p {
     font-size: 1.25rem;
-    font-size: 1.25rem;
     line-height: 1.4;
     letter-spacing: -.1px;
     margin: 0
@@ -15,8 +14,6 @@ p {
     position: relative;
     padding: 0;
     color: #2281c2;
-    color: #2281c2;
-    font-weight: 600;
     font-weight: 600;
     line-height: 1.33;
     letter-spacing: -.1px;
@@ -27,10 +24,8 @@ p {
 }
 .A:active, .A:focus, .A:hover {
     color: #2c96df;
-    color: #2c96df
 }
 .A--sm {
-    font-size: .75rem;
     font-size: 0.75rem;
     padding: 0px 0.5rem 2px 0.5rem;
 }
@@ -49,9 +44,7 @@ p {
     border: none;
     border-radius: 4px;
     font-weight: 600;
-    font-weight: 600;
     letter-spacing: -.1px;
-    color: #fff;
     color: #fff;
     text-decoration: none;
     background-color: initial;
@@ -64,7 +57,6 @@ p {
 .Button--lg {
     padding: 10px 30px;
     font-size: 1.25rem;
-    font-size: 1.25rem;
     line-height: 1.4
 }
 .Button--block {
@@ -74,30 +66,21 @@ p {
 .Button--secondary {
     background: none;
     border: 1px solid #2281c2;
-    border: 1px solid #2281c2;
     color: #2281c2;
-    color: #2281c2
 }
 .Button--secondary:not(.Button--action):not(:disabled):focus, .Button--secondary:not(.Button--action):not(:disabled):hover {
     background: #2c96df;
-    background: #2c96df;
-    border: 1px solid #2c96df;
     border: 1px solid #2c96df;
     color: #fff;
-    color: #fff
 }
 .Button--secondary:not(.Button--action):not(:disabled):active {
     background: #196091;
-    background: #196091;
-    border: 1px solid #196091;
     border: 1px solid #196091;
     color: #fff;
-    color: #fff
 }
 @media only screen and (max-width:64em) {
     .Button--lg:not(.Button--select):not(.Button--action) {
         padding: 9.5px 16px;
-        font-size: .9375rem;
         font-size: 0.9375rem;
         line-height: 1.33
     }
@@ -167,13 +150,6 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1.3
 }
-:root {
-    --text-color: #000;
-    --text-font: "proxima-nova";
-    --background-gradient-start: #aaa;
-    --background-gradient-end: #fff;
-    --background: linear-gradient(var(--background-gradient-start), var(--background-gradient-end))
-}
 .center {
     text-align: center;
     -webkit-align-items: center;
@@ -188,25 +164,25 @@ body {
     display: flex
 }
 .LinkGallery__content .Button {
-    font-family: var(--text-font), "sans-serif"!important
+    font-family: helvetica, "sans-serif"!important
 }
 .LinkGallery__content .LinkGallery__content--buttons-transparent.Button {
-    border-color: var(--text-color);
-    color: var(--text-color)
+    border-color: #cceeff;
+    color: #cceeff
 }
 .LinkGallery__content .LinkGallery__content--buttons-transparent.Button--secondary:not(.Button--action):not(:disabled):hover {
-    background: var(--text-color);
-    border-color: var(--text-color);
-    color: var(--background-gradient-start)
+    background: #cceeff;
+    border-color: #cceeff;
+    color: #2c40ff
 }
 .LinkGallery__content .LinkGallery__content--buttons-transparent.Button--secondary:not(.Button--action):not(:disabled):active, .LinkGallery__content .LinkGallery__content--buttons-transparent.Button--secondary:not(.Button--action):not(:disabled):focus {
     background: none;
-    border-color: var(--text-color);
-    color: var(--text-color)
+    border-color: #cceeff;
+    color: #cceeff
 }
 .Username {
     cursor: default;
-    color: var(--text-color);
+    color: #cceeff;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 .App {
@@ -216,7 +192,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
-    background: var(--background) var(--background-gradient-start) no-repeat 50%;
+    background: linear-gradient(#2c40ff, #b500ff) #2c40ff no-repeat 50%;
     background-size: cover
 }
 .App__content {
@@ -224,7 +200,7 @@ body {
     flex: 1 1
 }
 .Container--narrow {
-    font-family: var(--text-font);
+    font-family: helvetica;
     -webkit-flex-grow: 1;
     flex-grow: 1;
     width: 700px;
