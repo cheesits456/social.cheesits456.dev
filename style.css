@@ -1,4 +1,3 @@
-@import url(https://use.typekit.net/gpn2grf.css);
 p {
     font-size: 1.25rem;
     font-size: var(--display-small);
@@ -29,11 +28,6 @@ p {
 .A:active, .A:focus, .A:hover {
     color: #2c96df;
     color: var(--color-blue-400)
-}
-.A[disabled] {
-    color: #c7c9cb;
-    color: var(--color-grey-200);
-    pointer-events: none
 }
 .A--sm {
     font-size: .75rem;
@@ -143,63 +137,15 @@ button {
 [type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: button
 }
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-}
-[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
-    outline: 1px dotted ButtonText
-}
 :root {
-    --display-big: 3.375rem;
-    --display-xxlarge: 2.375rem;
-    --display-xlarge: 2.750rem;
-    --display-large: 2.125rem;
-    --display-medium: 1.5rem;
     --display-small: 1.25rem;
     --display-xsmall: 0.9375rem;
     --display-xxsmall: 0.75rem;
-    --display-tiny: 0.625rem;
     --weight-semibold: 600;
-    --weight-regular: 500;
-    --weight-normal: 400;
-    --weight-light: 300;
     --color-blue-800: #196091;
     --color-blue-600: #2281c2;
     --color-blue-400: #2c96df;
-    --color-blue-200: #8cccfa;
-    --color-blue-75: #c9e9ff;
-    --color-blue-50: #eaf6ff;
-    --color-blue-10: #f5f7f8;
-    --color-turquoise-800: #02b8c1;
-    --color-turquoise-400: #00cee1;
-    --color-green-800: #01834a;
-    --color-green-600: #02af63;
-    --color-green-400: #06cc75;
-    --color-green-50: #d7f8e7;
-    --color-red-800: #b73b3c;
-    --color-red-600: #d34547;
-    --color-red-400: #e84e50;
-    --color-red-50: #fae1e2;
-    --color-pink-600: #ed456f;
-    --color-pink-400: #fa596e;
-    --color-orange-600: #f6852f;
-    --color-orange-400: #f6a42f;
-    --color-orange-50: #fef1e6;
-    --color-yellow-400: #f5be00;
-    --color-yellow-600: #f5be00;
-    --color-azure-800: #263849;
-    --color-purple-400: #8355e1;
-    --color-grey-800: #212732;
-    --color-grey-600: #595d66;
-    --color-grey-400: #909398;
-    --color-grey-200: #c7c9cb;
-    --color-grey-150: #ddd;
-    --color-grey-100: #e8e9ea;
-    --color-grey-50: #f0f1f1;
-    --color-grey-25: #f9f9fa;
     --color-white: #fff;
-    --color-black: #000
 }
 body {
     font-family: proxima-nova, sans-serif;
