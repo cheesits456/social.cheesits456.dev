@@ -1,6 +1,6 @@
 p {
     font-size: 1.25rem;
-    font-size: var(--display-small);
+    font-size: 1.25rem;
     line-height: 1.4;
     letter-spacing: -.1px;
     margin: 0
@@ -15,9 +15,9 @@ p {
     position: relative;
     padding: 0;
     color: #2281c2;
-    color: var(--color-blue-600);
+    color: #2281c2;
     font-weight: 600;
-    font-weight: var(--weight-semibold);
+    font-weight: 600;
     line-height: 1.33;
     letter-spacing: -.1px;
     text-decoration: none
@@ -27,11 +27,11 @@ p {
 }
 .A:active, .A:focus, .A:hover {
     color: #2c96df;
-    color: var(--color-blue-400)
+    color: #2c96df
 }
 .A--sm {
     font-size: .75rem;
-    font-size: var(--display-xxsmall);
+    font-size: 0.75rem;
     padding: 0px 0.5rem 2px 0.5rem;
 }
 .A--sm:last-of-type {
@@ -49,10 +49,10 @@ p {
     border: none;
     border-radius: 4px;
     font-weight: 600;
-    font-weight: var(--weight-semibold);
+    font-weight: 600;
     letter-spacing: -.1px;
     color: #fff;
-    color: var(--color-white);
+    color: #fff;
     text-decoration: none;
     background-color: initial;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
@@ -64,7 +64,7 @@ p {
 .Button--lg {
     padding: 10px 30px;
     font-size: 1.25rem;
-    font-size: var(--display-small);
+    font-size: 1.25rem;
     line-height: 1.4
 }
 .Button--block {
@@ -74,31 +74,31 @@ p {
 .Button--secondary {
     background: none;
     border: 1px solid #2281c2;
-    border: 1px solid var(--color-blue-600);
+    border: 1px solid #2281c2;
     color: #2281c2;
-    color: var(--color-blue-600)
+    color: #2281c2
 }
 .Button--secondary:not(.Button--action):not(:disabled):focus, .Button--secondary:not(.Button--action):not(:disabled):hover {
     background: #2c96df;
-    background: var(--color-blue-400);
+    background: #2c96df;
     border: 1px solid #2c96df;
-    border: 1px solid var(--color-blue-400);
+    border: 1px solid #2c96df;
     color: #fff;
-    color: var(--color-white)
+    color: #fff
 }
 .Button--secondary:not(.Button--action):not(:disabled):active {
     background: #196091;
-    background: var(--color-blue-800);
+    background: #196091;
     border: 1px solid #196091;
-    border: 1px solid var(--color-blue-800);
+    border: 1px solid #196091;
     color: #fff;
-    color: var(--color-white)
+    color: #fff
 }
 @media only screen and (max-width:64em) {
     .Button--lg:not(.Button--select):not(.Button--action) {
         padding: 9.5px 16px;
         font-size: .9375rem;
-        font-size: var(--display-xsmall);
+        font-size: 0.9375rem;
         line-height: 1.33
     }
 }
@@ -136,16 +136,6 @@ button {
 }
 [type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: button
-}
-:root {
-    --display-small: 1.25rem;
-    --display-xsmall: 0.9375rem;
-    --display-xxsmall: 0.75rem;
-    --weight-semibold: 600;
-    --color-blue-800: #196091;
-    --color-blue-600: #2281c2;
-    --color-blue-400: #2c96df;
-    --color-white: #fff;
 }
 body {
     font-family: proxima-nova, sans-serif;
