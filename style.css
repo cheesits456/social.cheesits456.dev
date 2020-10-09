@@ -36,7 +36,7 @@ p {
     display: flex;
     flex-shrink: 0
 }
-.Avatar--profile {
+.Avatar--profile img {
     width: 128px;
     height: 128px
 }
